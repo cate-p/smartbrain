@@ -4,7 +4,7 @@ import "./FaceRecognition.css";
 const FaceRecognition = ({ imageUrl, box }) => {
 	return (
 		<div className="center ma">
-			<div className="border absolute f4 br4 pa4">
+			<div className="border pa3 ba dark-gray b--black br4 shadow-5 center absolute f4">
 				<img
 					id="inputimage"
 					alt=""
